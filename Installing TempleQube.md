@@ -28,3 +28,5 @@ Click on TempleQube > Setting > Advanced Advanced > Boot qube from DISC or block
 Step 4 Booting and Installation.
 Now let's go back to Dom0 terminal on the Xfce Terminal and type (or copy and past) this
  - @dom0:~$ [qvm-start TempleQube --cdrom work:/home/user/Downloads/TempleOS.ISO] and press enter.
+This will start the TempleQube on its own VM automataticly, ones done just complete the installation of TempleOS
+  - DONE! You are good to go.
