@@ -5,3 +5,9 @@ A/ Unlike Windows, MacOS, OS/2, and Linux Distrobutions QubesOS core philosophy 
 Before installing QubesOS you need the right hardware that is combatible for the operating system, unlike others QubesOS need some types of hardware needed to run.
   -  NOTE: you can find it in the Qubes Hardware Compatibility list > https://www.qubes-os.org/hcl/
   -  or buy Qubes Certified hardware > https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html
+  
+  If you are not sure what are the system requirments you can find them here
+    https://doc.qubes-os.org/en/latest/user/hardware/system-requirements.html
+
+For the Minimum
+-  It will need a 64-bit Intel or AMD processor also known as x86_64, x64, and AMD64, 6 GB RAM memory, and 32 GB free space storage
