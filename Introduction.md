@@ -11,3 +11,5 @@ Before installing QubesOS you need the right hardware that is combatible for the
 
 For the Minimum
 -  It will need a 64-bit Intel or AMD processor also known as x86_64, x64, and AMD64, 6 GB RAM memory, and 32 GB free space storage
+For the Remcommended
+- https://doc.qubes-os.org/en/latest/user/hardware/system-requirements.html
