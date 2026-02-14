@@ -1,36 +1,47 @@
-We are adding the Temple Operating System into a standalone qube
-Name   -   TempleQube
-Color  -   Yellow
-  -  Note you don't have to use the same name or color, you can pick your own.
+# Adding TempleOS to a Standalone Qube
 
-Step one, download the iso file thorught the TempleOS website: https://templeos.org/Downloads/ > Click TempleOS.ISO
-  CRITICAL NOTE!: Do NOT forget the qubes you download sence we need to get the .iso from that qubes file. I will use work for now-on.
-  
-Step two, building the TempleQube through the Dom0 terminal: it will be name Xfce Terminal.
-  @dom0:~$  qvm-create --class StandaloneVM --label yellow --property virt_mode=hvm TempleQube
-This will 'create' the 'standalone' qube in a 'yellow' qube icon w/ the name TempleQube in the Qubes Manger.
-We will use HVM since TempleOS is it's own operating system.
-    The "No Kernel" Step
-Eventhough you set it in the virt_mode=hvm, we need to tell qubes that TempleOS is on its own kernel and not on a Linux Kernal.
-  -  @dom0:~$ qvm-prefs TempleQube kernel
-    -  This will force to boot itself and not on linux.
-Memory & Network, we will set it to a static 512, and disable network since we don't need it to function.
- - @dom0:~$ qvm-prefs TempleQube memory 512 NOTE: there will not prompt you a messiage, it will just bring back to command.
- - @dom0:~$ qvm-prefs TempleQube maxmem 512
- - @dom0:~$ qvm-prefs TempleQube netvm''
-  one done we will go to the Qubes Manger to clear up some setting.
-  
-Step 3, Fix thing in settings
-  Let's go to:
-  Qubes Manager on the "Q" menu tab to the top left side where the couge wheel is > Qubes Tools > Qubes Manager.
-Click on TempleQube > Setting > Advanced Advanced > Boot qube from DISC or block device > click, from file in qube, choose "work" > and add the /home/user/Documents/TempleOS.ISO > OK
-  Once click on OK from Setting let's go to terning it on and installation
-Step 4 Booting and Installation.
-Now let's go back to Dom0 terminal on the Xfce Terminal and type (or copy and past) this
- - @dom0:~$ [qvm-start TempleQube --cdrom work:/home/user/Downloads/TempleOS.ISO] and press enter.
-This will start the TempleQube on its own VM automataticly, ones done just complete the installation of TempleOS
-  - DONE! You are good to go.
+* **Name:** TempleQube
+* **Color:** Yellow
+* **Note:** You don't have to use the same name or color; you can pick your own.
 
+## Step 1: Download the ISO
+Download the ISO file through the TempleOS website: [https://templeos.org/Downloads/](https://templeos.org/Downloads/)
+> **CRITICAL NOTE:** Do NOT forget which qube you downloaded the file to, since we need to get the `.iso` from that qube. I will use the qube named **"work"** for this guide.
+
+## Step 2: Building the TempleQube
+We will build the qube through the **Dom0 terminal** (Xfce Terminal).
+
+1.  **Create the Qube:** This will create a standalone qube with a yellow icon named "TempleQube". We use HVM mode since TempleOS is its own operating system.
+    ```bash
+    qvm-create --class StandaloneVM --label yellow --property virt_mode=hvm TempleQube
+    ```
+
+2.  **The "No Kernel" Step:** Even though we set `virt_mode=hvm`, we need to tell Qubes that TempleOS is on its own kernel and not on a Linux kernel.
+    ```bash
+    qvm-prefs TempleQube kernel ''
+    ```
+
+3.  **Memory & Network:** We will set memory to a static 512MB and disable networking since we don't need it.
+    ```bash
+    qvm-prefs TempleQube memory 512
+    qvm-prefs TempleQube maxmem 512
+    qvm-prefs TempleQube netvm ''
+    ```
+
+## Step 3: Fix Settings in Qubes Manager
+1.  Go to the **"Q" menu** (top left) > **Qubes Tools** > **Qubes Manager**.
+2.  Right-click **TempleQube** and select **Settings**.
+3.  Go to the **Advanced** tab.
+4.  Look for "Boot qube from CDROM/DVD" (or "Boot from device").
+5.  Select **"From file in qube"**.
+6.  Choose the qube where you downloaded the file (e.g., **"work"**).
+7.  Select the ISO file path (e.g., `/home/user/Downloads/TempleOS.ISO`) and click **OK**.
+
+## Step 4: Booting and Installation
+Go back to the **Dom0 terminal** and type the following command to start the VM with the CDROM attached:
+
+```bash
+qvm-start TempleQube --cdrom work:/home/user/Downloads/TempleOS.ISO
 
 Enjoy TempleOS, your frist non-Linux operating system.
 You can learn HolyC, a C-like language only for this OS
