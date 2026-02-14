@@ -42,7 +42,8 @@ Go back to the **Dom0 terminal** and type the following command to start the VM 
 
 ```bash
 qvm-start TempleQube --cdrom work:/home/user/Downloads/TempleOS.ISO
-
+```
+## Step 5: Enjoy!
 Enjoy TempleOS, your frist non-Linux operating system.
 You can learn HolyC, a C-like language only for this OS
   If you already know C/C++ you'll understand how HolyC works.
