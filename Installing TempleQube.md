@@ -30,3 +30,8 @@ Now let's go back to Dom0 terminal on the Xfce Terminal and type (or copy and pa
  - @dom0:~$ [qvm-start TempleQube --cdrom work:/home/user/Downloads/TempleOS.ISO] and press enter.
 This will start the TempleQube on its own VM automataticly, ones done just complete the installation of TempleOS
   - DONE! You are good to go.
+
+
+Enjoy TempleOS, your frist non-Linux operating system.
+You can learn HolyC, a C-like language only for this OS
+  If you already know C/C++ you'll understand how HolyC works.
