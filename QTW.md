@@ -1,7 +1,7 @@
 # 📂 Project WTQ: Windows 10 (32-bit) Experimental Build
 
 **Date:** February 17, 2026  
-**Operator:** Matthew Noel Coto ("NostalgicUniSec")  
+**Operator:** Mateo Coto Nostalgintosh  
 **Status:** In Progress  
 
 ---
