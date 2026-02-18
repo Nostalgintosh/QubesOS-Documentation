@@ -65,3 +65,10 @@ qvm-prefs win10-32bit-test memory 3500
 ```bash
 qvm-prefs win10-32bit-test maxmem 3500
 ```
+
+### to start in the commandline use this in you're pefure Qube in your
+Note: you may incouter rebooting and it may shutdown a couple of times.
+use this bash command to start it and use the arrow key to bring it back since you'll need it.
+```bash
+qvm-start win-32bit-test
+```
