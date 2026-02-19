@@ -1,21 +1,13 @@
-# 📂 Project WTQ: Windows 10 (32-bit) Experimental Build
+# 📂 Project WTQ: Windows 11 & 10 Experimental Build
 
-**Date:** February 17, 2026  
+**Date:** February 18, 2026  
 **Operator:** Mateo Coto Nostalgintosh  
-**Status:** In Progress  
+**Status:** In Working Progress  
 
 ---
 
 ## 🎯 Objective
-To deploy a **32-bit Windows 10** environment inside a Qubes OS Standalone VM to test architectural limitations, memory constraints, and driver compatibility (Qubes Windows Tools) in a hardened, air-gapped scenario.
-
----
-
-## 🛠 Hardware Context ("The Bunker")
-* **Host:** Qubes OS 4.2 (Laptop)
-* **Input:** 8BitDo Retro Mechanical Keyboard (Famicom Edition)
-* **Security:** Privacy Hood deployed for visual hardening (Anti-Shoulder Surfing)
-* **Vibe:** "NostalgicUniSec" / Cyberdeck Art Installation
+To deploy both a **63 bit and 32-bit Windows 11 & 10** environment inside a Qubes OS Standalone VM to test architectural limitations, memory constraints, and driver compatibility (Qubes Windows Tools) in a hardened, air-gapped scenario.
 
 ---
 
@@ -23,7 +15,7 @@ To deploy a **32-bit Windows 10** environment inside a Qubes OS Standalone VM to
 * **Name:** `win10-32bit-test`
 * **Class:** StandaloneVM (HVM)
 * **Kernel:** None (Direct boot)
-* **Architecture:** x86 (32-bit)
+* **Architecture:** x86 (32-bit or 64 bit)
 * **Memory (RAM):** Locked at **3500 MB** (3.5 GB) to match 32-bit addressable limits.
 * **Storage:** Private Volume resized to **32+ GB** to accommodate ISO extraction.
 
