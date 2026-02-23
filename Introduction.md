@@ -17,12 +17,18 @@ For the Minimum
 For the Remcommended
 - https://doc.qubes-os.org/en/latest/user/hardware/system-requirements.html
 
-Note: If you know *Fedora's installation prosses,* Qubes installation will be familiar to you since it is the simular to installing a Fedora Distro.
+Note: If you know the *Fedora's installation prosses,* Qubes installation will be familiar to you since it is the simular to installing a Fedora Distro.
 
 However in short you first add your language and keyboard layout then you'll and the necessary drivers to intall and store the OS.
 This is where you will add your user name and password. You can also a Graphic User Interface or *GUI* or choose the commandline for adding or removing your qubes. How you want, one selected you'll start the prosses of installation. Note this will take awhile so propare youself some coffee and wait...
 
 Ones done and rebooted you go to the next setup, if you will like add pre-made template and what Xfce distro to pick Fedora or Debian and other things you may or may not want on you Qubes Operating System. inshort you'll done with the installation and setting up your OS, and now it time to configrate you OS for what you will need.
 
+You'll have the opitions to have pre-made templete one done with the installation and greated with the setup amoung other things. The pre-made include premade template like Fedora Xfce with pre-made qubes name, personal, work, untrusted and vault.
+
   Note if you what to maxamize as much a possible either on a desktop or a laptop you'll need to know how manage your pass and know when it's too much.
   The Ram is esstinal to know you limiations of the hardware and the software, and by using **Qubes Dynamic Memory** you will understand
+
+Once all finished you'll be greated with the univeral interface of the operating system and the "Q" button on the top-left. This is were your qubes, templates and other settings live.
+next to "Q" is where the windows live browser, terminal, system settings &c. are in.
+On the top-right, biginning on the left to right you will see the virtual desktops, the time, voluime and others that you see in others OSes. There is a Qubes button that you will see which qubes is taking what hardware like RAM & CPU.
