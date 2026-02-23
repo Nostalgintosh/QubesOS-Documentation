@@ -32,3 +32,4 @@ You'll have the opitions to have pre-made templete one done with the installatio
 Once all finished you'll be greated with the univeral interface of the operating system and the "Q" button on the top-left. This is were your qubes, templates and other settings live.
 next to "Q" is where the windows live browser, terminal, system settings &c. are in.
 On the top-right, biginning on the left to right you will see the virtual desktops, the time, voluime and others that you see in others OSes. There is a Qubes button that you will see which qubes is taking what hardware like RAM & CPU.
+
