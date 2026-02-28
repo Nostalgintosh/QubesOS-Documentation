@@ -33,25 +33,32 @@ Once all finished you'll be greated with the univeral interface of the operating
 next to "Q" is where the windows live browser, terminal, system settings &c. are in.
 On the top-right, biginning on the left to right you will see the virtual desktops, the time, voluime and others that you see in others OSes. There is a Qubes button that you will see which qubes is taking what hardware like RAM & CPU.
 
+
+## Understanding basic commandline
+To understand the Qubes Operating System you'll need to understand the Xfce Terminal in both Dom0 and the qubes terminal itself, there both the same terminal so you don't need to know different commands in the terminal just which one is approitate to use. We are frist start by the basic command from Linux follow by Qubes what should be use and not be use from both Dom0 terminal and the qube terminal.
+  ##### Note! Dom0 is only for the creation of *qubes* and nothing else. Do Not use it for anything else other than the bar minimun.
+
+### Understnad Linuxs commands
 To understand QubesOS you'll need to know linux itself, so knowing some Linux commandline is essintal in both Linux and Qubes Operating System. Here are the common (but not all) commands that you will need to know.
 
-Meaning *Print Working Directory* that tells you were you are in the terinal or koncle.
+#### Meaning *Print Working Directory* that tells you were you are in the terminal or koncle.
 ```bash
 pwd
 ```
-This means *Change Directory* to change were you are.
+#### This means *Change Directory* to change were you are.
 ```bash
 cd
 ```
-To lest folders
+#### To lest folders on what cd you are in.
 ```bash
 ls
 ```
-To create folders
+#### To create folders.
 ```bash
 mkdir
 ```
-To remove folders
+#### To remove folders
 ```bash
 rmdir
 ```
+### Understanding Qubes commands
