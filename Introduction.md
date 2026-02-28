@@ -33,3 +33,25 @@ Once all finished you'll be greated with the univeral interface of the operating
 next to "Q" is where the windows live browser, terminal, system settings &c. are in.
 On the top-right, biginning on the left to right you will see the virtual desktops, the time, voluime and others that you see in others OSes. There is a Qubes button that you will see which qubes is taking what hardware like RAM & CPU.
 
+To understand QubesOS you'll need to know linux itself, so knowing some Linux commandline is essintal in both Linux and Qubes Operating System. Here are the common (but not all) commands that you will need to know.
+
+Meaning *Print Working Directory* that tells you were you are in the terinal or koncle.
+```bash
+pwd
+```
+This means *Change Directory* to change were you are.
+```bash
+cd
+```
+To lest folders
+```bash
+ls
+```
+To create folders
+```bash
+mkdir
+```
+To remove folders
+```bash
+rmdir
+```
