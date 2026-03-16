@@ -64,3 +64,4 @@ use this bash command to start it and use the arrow key to bring it back since y
 ```bash
 qvm-start win-32bit-test
 ```
+Remember: Know your liminates of your hardware before installing Windows on you computer, Windows is known to  hevy so it best to understand your hadware and can and cannot install.
