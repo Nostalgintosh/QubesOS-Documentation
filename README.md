@@ -23,3 +23,19 @@ You can run any Linux Distros, non-Linux operating systems, older operating syst
 
 ### Templates Vs. Standalones
 Standard apartments share a *Template* to save space while Standalones are as Studio apartments as *templates* are Multi-room Apartments; they are **fully independent** and have their own files and system settings, &c. They are heavier on the building's resources, but thet give you total control of there one-room apartment.
+
+## My recommendation with what templates and standalones
+
+**Templates**
+
+For the Templates the custom version are the best choise so you do not need to create them as a you frist start out, but ones fammiliar with the software than make as much as you need
+  -  NOTE: Create Template that you'll need to work on your envirement. Do Not make more than you'll need.
+
+**Qubes**
+
+Work, Personal, and Untrusted are your best bet for security through compartmentalization. Anything else is for spific reasons and not may overuse you RAM.
+
+**StandaloneVM**
+
+For Linux I will choose either Kail Linux or PerrotSec of Red Hat, and ubuntu for standard Linux OS testing
+For Non-Linux Windows 10 or 11 can work but there hevy so choose wisely. It good if you do not want to use WINE or a compatibility layers.
